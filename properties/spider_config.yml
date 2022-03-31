@@ -1,0 +1,9 @@
+zalando-spider:
+  allowed_domains:
+    - zalando.nl
+  start_urls:
+    - https://www.zalando.nl/dameskleding/
+    - https://www.zalando.nl/damesschoenen/
+    - https://www.zalando.nl/sports-dames/
+    - https://www.zalando.nl/tassen-accessoires/
+    - https://www.zalando.nl/beauty/

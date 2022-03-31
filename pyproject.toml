@@ -8,6 +8,7 @@ authors = ["Giulia Caglia"]
 python = "^3.9"
 Scrapy = "^2.6.1"
 scrapy-splash = "^0.8.0"
+PyYAML = "^6.0"
 
 [tool.poetry.dev-dependencies]
 pycodestyle = "^2.8.0"
@@ -17,6 +18,7 @@ pep8 = "^1.7.1"
 autopep8 = "^1.6.0"
 black = "^22.3.0"
 mypy = "^0.942"
+pylint = "^2.13.3"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
