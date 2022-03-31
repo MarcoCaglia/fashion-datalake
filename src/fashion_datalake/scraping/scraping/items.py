@@ -7,6 +7,10 @@ import scrapy
 
 
 class ScrapingItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    """Holds scraped item information of HTMLs and images."""
+
+    id_item = scrapy.Field()
+    url = scrapy.Field()
+    source = scrapy.Field()
+    raw_html = scrapy.Field()
+    image_urls = scrapy.Field()
